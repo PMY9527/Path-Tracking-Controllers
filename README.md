@@ -44,4 +44,16 @@ $$
 A_d = I + \Delta t A, \quad B_d = \Delta t B
 $$
 
+## Results
+### LQR
+![Straight Line](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Tracking%20Visualisation(LQR).png)
+![Straight Line Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Control%20Input%20Visualisation(LQR).png)
+![Curves](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Tracking%20Visualisation(LQR).png)
+![Curves Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Control%20Input%20Visualisation(LQR).png)
+
+### MPC
+![Straight Line](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Tracking%20Visualisation(MPC).png)
+![Straight Line Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Control%20Input%20Visualisation(MPC).png)
+![Curves](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Tracking%20Visualisation(MPC).png)
+![Curves Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Control%20Input%20Visualisation(MPC).png)
 
