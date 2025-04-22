@@ -4,12 +4,12 @@
 We extend the bicycle model to a 5th-order system:
 
 $$ 
-\mathbf{X} = \begin{bmatrix} x, \\ y, \\ \psi, \\ \dot{\psi}, \\ v, \end{bmatrix}, \quad
-\mathbf{U} = \begin{bmatrix} a \\ \ddot{\psi} \end{bmatrix}
+\mathbf{X} = \begin{bmatrix} x, \\ y, \\ \psi, \\ \dot{\psi}, \\ v, \end{bmatrix} \quad
+\mathbf{U} = \begin{bmatrix} a, \\ \ddot{\psi} \end{bmatrix}
 $$
 
 State equations:
-$
+$$
 \begin{cases}
 \dot{x} = v\cos\psi \\
 \dot{y} = v\sin\psi \\
@@ -17,7 +17,7 @@ $
 \ddot{\psi} = \ddot{\psi} \\
 \dot{v} = a
 \end{cases}
-$
+$$
 
 ### 1.2 Linearization
 Jacobian matrices at reference point $(X_{ref}, U_{ref})$:
