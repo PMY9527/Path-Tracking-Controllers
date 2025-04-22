@@ -59,6 +59,9 @@ $$
 \mathbf{u} = -K\mathbf{\tilde{X}}, \quad K = (R + B_d^T P B_d)^{-1} B_d^T P A_d
 $$
 
+with $P$ solved via the iteration method.
+
+
 ### 2.2 MPC Formulation
 Receding horizon optimization:
 
@@ -67,3 +70,6 @@ $$
 \min_{\mathbf{U}} & \sum_{k=0}^{N_p} \mathbf{\tilde{X}}_{k|t}^T Q \mathbf{\tilde{X}}_{k|t} + \sum_{k=0}^{N_c-1} \mathbf{\tilde{U}}_{k|t}^T R \mathbf{\tilde{U}}_{k|t} \\
 \text{s.t.} & \quad \mathbf{\tilde{X}}_{k+1|t} = A_d \mathbf{\tilde{X}}_{k|t} + B_d \mathbf{\tilde{U}}_{k|t}
 \end{aligned}
+$$
+
+
