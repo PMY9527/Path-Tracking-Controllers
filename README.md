@@ -39,9 +39,9 @@ B = \begin{bmatrix}
 $$
 
 Discrete-time formulation (Forward Euler):
-$
+$$
 A_d = I + \Delta t A, \quad B_d = \Delta t B
-$
+$$
 
 ## 2. Controller Design
 
