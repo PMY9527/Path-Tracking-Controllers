@@ -48,7 +48,7 @@ $$
 ### LQR
 
 <div style="display: inline-block; width: 15%; margin-right: 5%;">
-  <img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Tracking%20Visualisation(LQR).png" alt="LQR 直线跟踪" width="100%" />
+  <img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Tracking%20Visualisation(LQR).png" alt="LQR 直线跟踪" width="10%" />
 </div>
 <div style="display: inline-block; width: 15%;">
   <img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Control%20Input%20Visualisation(LQR).png" alt="LQR 直线控制输入" width="100%" />
