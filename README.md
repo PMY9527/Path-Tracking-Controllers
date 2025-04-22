@@ -67,8 +67,8 @@ Receding horizon optimization:
 
 $$
 \begin{aligned}
-\min_{\mathbf{U}} & \sum_{k=0}^{N_p} \mathbf{\tilde{X}}_{k|t}^T Q \mathbf{\tilde{X}}_{k|t} + \sum_{k=0}^{N_c-1} \mathbf{\tilde{U}}_{k|t}^T R \mathbf{\tilde{U}}_{k|t} \\
-\text{s.t.} & \quad \mathbf{\tilde{X}}_{k+1|t} = A_d \mathbf{\tilde{X}}_{k|t} + B_d \mathbf{\tilde{U}}_{k|t}
+\min_{\mathbf{U}} \quad & \sum_{k=0}^{N_p} \mathbf{\tilde{X}}_{k|t}^T Q \mathbf{\tilde{X}}_{k|t} + \sum_{k=0}^{N_c-1} \mathbf{\tilde{U}}_{k|t}^T R \mathbf{\tilde{U}}_{k|t} \\
+\text{s.t.} \quad & \mathbf{\tilde{X}}_{k+1|t} = A_d \mathbf{\tilde{X}}_{k|t} + B_d \mathbf{\tilde{U}}_{k|t}
 \end{aligned}
 $$
 
