@@ -46,14 +46,17 @@ $$
 
 ## Results
 ### LQR
-![Straight Line](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Tracking%20Visualisation(LQR).png)
-![Straight Line Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Control%20Input%20Visualisation(LQR).png)
-![Curves](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Tracking%20Visualisation(LQR).png)
-![Curves Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Control%20Input%20Visualisation(LQR).png)
+
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Tracking%20Visualisation(LQR).png" alt="LQR 直线跟踪" width="45%" />
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Control%20Input%20Visualisation(LQR).png" alt="LQR 直线控制输入" width="45%" />
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Tracking%20Visualisation(LQR).png" alt="LQR 曲线跟踪" width="45%" />
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Control%20Input%20Visualisation(LQR).png" alt="LQR 曲线控制输入" width="45%" />
 
 ### MPC
-![Straight Line](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Tracking%20Visualisation(MPC).png)
-![Straight Line Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/直线/Control%20Input%20Visualisation(MPC).png)
-![Curves](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Tracking%20Visualisation(MPC).png)
-![Curves Inputs](https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/LQR_PICS/曲线/Control%20Input%20Visualisation(MPC).png)
+
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/MPC_PICS/直线/Tracking%20Visualisation(MPC).png" alt="MPC 直线跟踪" width="45%" />
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/MPC_PICS/直线/Control%20Input%20Visualisation(MPC).png" alt="MPC 直线控制输入" width="45%" />
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/MPC_PICS/曲线/Tracking%20Visualisation(MPC).png" alt="MPC 曲线跟踪" width="45%" />
+<img src="https://github.com/PMY9527/Path-Tracking-Controllers/blob/main/MPC_PICS/曲线/Control%20Input%20Visualisation(MPC).png" alt="MPC 曲线控制输入" width="45%" />
+
 
