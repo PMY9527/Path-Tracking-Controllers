@@ -8,7 +8,7 @@ $$
 \mathbf{U} = \begin{bmatrix} a, \\ \ddot{\psi} \end{bmatrix}
 $$
 
-![State equations:](https://latex.codecogs.com/svg.image?$$\begin{cases}\dot{x}=v\cos\psi\\\dot{y}=v\sin\psi\\\dot{\psi}=\dot{\psi}\\\ddot{\psi}=\ddot{\psi}\\\dot{v}=a\end{cases}$$)
+![State equations:](https://latex.codecogs.com/png.image?\dpi{110}$$\begin{cases}\dot{x}=v\cos\psi\\\dot{y}=v\sin\psi\\\dot{\psi}=\dot{\psi}\\\ddot{\psi}=\ddot{\psi}\\\dot{v}=a\end{cases}$$)
 
 ### 1.2 Linearization
 Jacobian matrices at reference point $(X_{ref}, U_{ref})$:
@@ -31,9 +31,9 @@ B = \begin{bmatrix}
 $$
 
 Discrete-time formulation (Forward Euler):
-$$
+$
 A_d = I + \Delta t A, \quad B_d = \Delta t B
-$$
+$
 
 ## 2. Controller Design
 
