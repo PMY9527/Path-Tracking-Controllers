@@ -1,7 +1,7 @@
-## 1. System Modeling and Linearization
+## System Modeling
 
-### 1.1 Extended Kinematic Model
-We extend the bicycle model to a 5th-order system:
+### Extended Kinematic Model
+The bicycle model is extended to a 5th-order system:
 
 $$ 
 \mathbf{X} = \begin{bmatrix} x, \\ y, \\ \psi, \\ \dot{\psi}, \\ v, \end{bmatrix} \quad
@@ -18,7 +18,7 @@ $$
 \end{cases}
 $$
 
-### 1.2 Linearization
+### Linearization & Discretization
 Jacobian matrices at reference point $(X_{ref}, U_{ref})$:
 
 $$
@@ -44,33 +44,4 @@ $$
 A_d = I + \Delta t A, \quad B_d = \Delta t B
 $$
 
-## 2. Controller Design
-
-### 2.1 LQR Implementation
-Cost function:
-
-$$
-\min_{\mathbf{u}} J = \sum_{k=1}^N (\mathbf{\tilde{X}}_k^T Q \mathbf{\tilde{X}}_k + \mathbf{\tilde{U}}_k^T R \mathbf{\tilde{U}}_k)
-$$
-
-Optimal control law:
-
-$$
-\mathbf{u} = -K\mathbf{\tilde{X}}, \quad K = (R + B_d^T P B_d)^{-1} B_d^T P A_d
-$$
-
-with $P$ solved via the iteration method.
-
-
-### 2.2 MPC Formulation
-Receding horizon optimization:
-
-$$
-\begin{aligned}
-\min_{\mathbf{U}} \quad & \sum_{k=0}^{N_p} \mathbf{\tilde{X}}_{k|t}^T Q \mathbf{\tilde{X}}_{k|t} + \sum_{k=0}^{N_c-1} \mathbf{\tilde{U}}_{k|t}^T R \mathbf{\tilde{U}}_{k|t} \\
-\text{s.t.} \quad & \mathbf{\tilde{X}}_{k+1|t} = A_d \mathbf{\tilde{X}}_{k|t} + B_d \mathbf{\tilde{U}}_{k|t}
-\end{aligned}
-$$
-
-That concludes this repo.
 
