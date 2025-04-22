@@ -9,7 +9,7 @@ $$
 $$
 
 State equations:
-$$
+$
 \begin{cases}
 \dot{x} = v\cos\psi \\
 \dot{y} = v\sin\psi \\
@@ -17,7 +17,7 @@ $$
 \ddot{\psi} = \ddot{\psi} \\
 \dot{v} = a
 \end{cases}
-$$
+$
 
 ### 1.2 Linearization
 Jacobian matrices at reference point $(X_{ref}, U_{ref})$:
