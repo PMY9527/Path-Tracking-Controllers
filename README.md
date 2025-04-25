@@ -4,8 +4,8 @@
 The bicycle model is extended to a 5th-order system:
 
 $$ 
-\mathbf{X} = \begin{bmatrix} x, \\ y, \\ \psi, \\ \dot{\psi}, \\ v, \end{bmatrix} \quad
-\mathbf{U} = \begin{bmatrix} a, \\ \ddot{\psi} \end{bmatrix}
+\mathbf{X} = \begin{bmatrix} x, \\ y, \\ \psi, \\ \dot{\psi}, \\ v \end{bmatrix}^T \quad
+\mathbf{U} = \begin{bmatrix} a, \\ \ddot{\psi} \end{bmatrix}^T
 $$
 
 $$
